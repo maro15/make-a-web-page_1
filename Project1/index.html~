@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <title>My First Web Page </title>
+    <link rel="stylesheet" type = "text/css"  href="style.css">
+</head>
+<body>
+    <h1>  WEBPAGES, DOCUMENTS, AND STRUCTURE </h1>
+      <br>
+    <h2 class = "lesson 1">  Lesson 1: The Basics of the Web and HTML </h2>
+    <h3 class = "concept-title">  The Basics of the Web </h3>
+      <h4 > World Wide Web</h4>
+    <div class = "concept-description">
+    <p>The World Wide Web is a collection of HTML documents. HTML is the basis for almost every webpage and the links between the pages called hyperlinks.</p>
+    <p>Major pieces of the web: </p>
+  <ul>
+  	<li> HTTP: The main protocol of the web </li>
+  	<li> Servers: Computers that host the files that make up the web </li>
+  	<li> Internet: The world's largest computer network</li>
+  	<li> Browser: A program that runs on your computer to display files found on the web</li>
+    </ul>
+   </div>
+    <h3 class = "concept-title"> HTML </h3> 
+    <div class = "app">
+    <div class ="image" ><img src ="images.jpeg" alt="html"></div>
+    <div class = "description">
+    HTML stands for HyperText Markup Language.<br>
+      HTML is made up of:
+	<ul>
+ 	 <li> text content </li>
+ 	 <li> markup </li>
+ 	 <li> references to other documents </li>
+ 	 <li> links to other pages </li>
+   	 </ul> </div>
+    
+  </div>
+      <h4 >HTML Markup</h4>
+	<p> HTML markup is made up of things called tags. An HTML tag is always contained within angled brackets &lt;  &gt;. 		Most tags have an opening tag and closing tag .Some tags do not require a closing tag called &ldquo;void&rdquo; tag.</p>
+
+  	* <b>b- Tag </b>: Anything that appers inside the b-tag appears bold . <br>
+  	*<b> em- Tag </b>: This tag makes things italics .
+
+  <h4> HTML Attributes </h4>
+	<p>Attribute is a property of an HTML element. Element refers to everything within a set of opening and closing tags. 	HTML tags can have attributes that determine the behaviour of the tag.</p>
+
+	<p>An example of a tag that uses attributes is the anchor tag : &ldquo;href&rdquo;.
+ 	 Another tag that uses attributes is the image tag: &ldquo;src&rdquo;</p>
+  	<p>I am going to learn <a href= "http://www.w3.org/html/">HTML</a></p>
+  	<h3 class = "concept-title">Whitespace:</h3><p> All spaces in text, whitespaces, are largely ignored in HTML.To force 		out HTML to have multiple lines we can use break tag and paragraph tag.</p>
+  	<h3 class = "concept-title">Inline vs. block tags</h3>
+  	<p> HTML elements are either inline or block.</p>
+  	<ul>
+    	 <li>Inline : Shows texts inline.</li>
+         <li> Block : Elements are in an invisible box.</li>
+      	</ul>
+
+ 
+     <h2 class = "lesson 2"> Lesson 2: Creating a Structured Documents with HTML </h2>
+   	<div class="exploring">
+      <h3 class = "concept-title"> Exploring the Web</h3>
+        <p>Not all elements of the web is visible but all that is visible is in a rectangle. 
+          Even other shapes are in a box, making rearranging web interfaces a lot simplier.</p>
+   
+
+        <p>A HTML document can be broken down into a tree-like structure. </p>
+        
+   <h4> Vocabulary:</h4>
+
+            <b>HTML</b> (Hyper Text Markup Language): standard markup language used to create webpages
+           <br>
+           <b>CSS</b> (Cascading Style Sheets): style sheet language used for describing look and formatting of document written in markup language
+            <br>
+            <b>DOM</b> (Document Object Model): a cross-platform and language-independent convention for representing and interacting with objects in HTML and other markup languages.The nodes of every document are organized in a tree structure, called the DOM tree.
+  </div>
+  <div>
+    <h2 class = "lesson 3"> Lesson 3: Adding CSS Style to HTML Structure </h2>
+</div>
+	<div>
+	<h3 class = "concept-title"> Avoiding Repetition </h3>
+	   <p>Adding CSS style to HTML structure is a great way to avoid repetition so programmers do not have to write the same code over and over again. It also avoids copy and pasting certain style attributes into many HTML elements. </p>
+	<p> For example: If I want to change the color of all h3 elements in my web page, then instead of manually changing the h3 elements color, adding CSS style to HTML structure makes it easy to change style of my web page So, it gives consistency to my web page and avoiding errors.</p>
+
+	<h3 class ="concept-title"> Understanding CSS </h3>
+    <p> CSS stands for Cascading Style Sheets and they give programmers a way to control the style of related HTML elements. This is done by giving similar HTML elements the same class name and then specifying the style that should apply to that class.</p>
+    <p><b> Inheritance:</b> Inheritance is a key feature in CSS. It relies on the ancestor- descendant relationship to operate. </p>
+    <p> Given the following style sheet: </p>
+   <p> h5 {color : Peru;} -- suppose there is an h5 element with an emphasizing element &lang;em&rang; inside: the emphasized word will inherit the color of the parent element, h5.</p>
+     <h5> This to <em> illustrate </em> inheritance. </h5>
+    <p> TO LEARN MORE ABOUT HTML AND CSS : <a href ="https://www.udacity.com/course/viewer#!/c-ud304/l-2617868617/m-2698138588"> click here </a></p>
+  </div>
+  </body>
+  </html>
+
