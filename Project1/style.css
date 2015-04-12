@@ -1,0 +1,59 @@
+h1 {
+  font-size: 60px;
+  text-align : center;
+  color : Blue;
+}
+h4 {
+  font-size : 20px;
+  text-align :inherit ;
+  color :Orchid;
+}
+
+h5 {
+  color : Peru;
+}
+body {
+	padding: 20px 10px;
+	font-family: Arial;
+	max-width: 2000px;
+	margin: 0 auto; 
+	font-size: 1.2em;
+}      
+p {
+	margin: 20px 0;
+    
+}
+.lesson {
+	background-color: Purple;
+	border-radius: 20px;
+	color: White;
+	padding: 20px;
+	margin: 15px auto;
+}
+.concept {
+	background-color: #DFEAF1;
+	padding: 4px;
+	margin: 10px;
+	border-radius: 10px;
+	color: Black;
+}
+
+.concept-title {
+	font-size: 30px;
+	text-align: left;
+	color:MediumVioletRed ;
+}
+a {
+  color : Red;
+}
+
+.app{
+	
+	display : flex;
+}
+
+.description {
+	padding:10px;
+	margin: 10px;
+    
+}	
